@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <div class="mainnavbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Sine<span>Mkt</span>.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#newArrival">New Arrival</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="icons">
+                        <a href="#"><span><i class="ri-search-line"></i></span></a>
+                        <a href="#"><span><i class="ri-settings-2-line"></i></span></a>
+                        <a href="#"><span><i class="ri-shopping-cart-line"></i></span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="container">
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleInterval" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleInterval" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleInterval" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="10000">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12 col-sm-12">
+                                <div class="css first animate__animated animate__backInUp">
+                                    <h3>Great Design Collection</h3>
+                                    <h4>Cloth Covered Accent Chair</h4>
+                                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiuiana
+                                        Smod
+                                        Tempor Ut
+                                        Labore Et
+                                        Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation
+                                        Ullamco Laboris
+                                        Nisi Ut
+                                        Aliquip.</p>
+                                    <p class="price">$ 599.00 <span>$699.00</span></p>
+                                    <button>Add to Cart</button>
+                                    <button class="second">More Info</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <div class="css">
+                                    <img src="../Images/slider1.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12 col-sm-12">
+                                <div class="css first">
+                                    <h3>Great Design Collection</h3>
+                                    <h4>Mapple Wood Accent Chair</h4>
+                                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiuiana
+                                        Smod
+                                        Tempor Ut
+                                        Labore Et
+                                        Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation
+                                        Ullamco Laboris
+                                        Nisi Ut
+                                        Aliquip.</p>
+                                    <p class="price">$ 399.00 <span>$499.00</span></p>
+                                    <button>Add to Cart</button>
+                                    <button class="second">More Info</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <div class="css">
+                                    <img src="../Images/slider2.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-12 col-sm-12">
+                                <div class="css first">
+                                    <h3>Great Design Collection</h3>
+                                    <h4>Valvet Accent Arm Chair</h4>
+                                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiuiana
+                                        Smod
+                                        Tempor Ut
+                                        Labore Et
+                                        Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation
+                                        Ullamco Laboris
+                                        Nisi Ut
+                                        Aliquip.</p>
+                                    <p class="price">$ 299.00 <span>$399.00</span></p>
+                                    <button>Add to Cart</button>
+                                    <button class="second">More Info</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <div class="css">
+                                    <img src="../Images/slider3.png" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval"
+                    data-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span> -->
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval"
+                    data-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span> -->
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <div class="css2">
+                        <div>
+                            <img src="../Images/p1.png" alt="">
+                        </div>
+                        <div>
+                            <h5>Arm Chair</h5>
+                            <p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="css2 between">
+                        <div class="image">
+                            <img src="../Images/p2.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h5>Latest Designed Stool and Chair</h5>
+                            <p>Edi Ut Perspiciatis Unde Omnis Iste Natusina Error Sit Voluptatem Accusantium Doloret
+                                Mque
+                                Laudantium, Totam Rem Aperiam.</p>
+                            <h4>Sales Start from <span>%99.00</span></h4>
+                            <button>Discover More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="css2" style="padding-top:0px;">
+                        <div>
+                            <img src="../Images/p3.png" alt="">
+                        </div>
+                        <div>
+                            <h5>Hanging Lamp</h5>
+                            <p>Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut fugit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section2" id="newArrival">
+        <div class="container">
+            <h1>New Arrivals</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-16">
+                    <div class="css3">
+                        <div class="image2 saleO">
+                            <img src="../Images/arrivals1.png" alt="">
+                            <div class="icons">
+                                <div>
+                                    <span><i class="ri-shopping-cart-2-line"></i></span>
+                                    <p><a href="#">Add to Cart</a></p>
+                                </div>
+                                <div>
+                                    <span><i class="ri-service-line"></i></span>
+                                    <span><i class="ri-fullscreen-line"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a href="#">Wooden Chair</a></h4>
+                            <p>$65.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-16">
+                    <div class="css3">
+                        <div class="image2 saleG">
+                            <img src="../Images/arrivals2.png" alt="">
+                            <div class="icons">
+                                <div>
+                                    <span><i class="ri-shopping-cart-2-line"></i></span>
+                                    <p><a href="#">Add to Cart</a></p>
+                                </div>
+                                <div>
+                                    <span><i class="ri-service-line"></i></span>
+                                    <span><i class="ri-fullscreen-line"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a href="#">Single Armchair</a></h4>
+                            <p>$80.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-16">
+                    <div class="css3">
+                        <div class="image2">
+                            <img src="../Images/arrivals3.png" alt="">
+                            <div class="icons">
+                                <div>
+                                    <span><i class="ri-shopping-cart-2-line"></i></span>
+                                    <p><a href="#">Add to Cart</a></p>
+                                </div>
+                                <div>
+                                    <span><i class="ri-service-line"></i></span>
+                                    <span><i class="ri-fullscreen-line"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a href="#">Wooden Armchair</a></h4>
+                            <p>$40.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-16">
+                    <div class="css3">
+                        <div class="image2 saleO">
+                            <img src="../Images/arrivals4.png" alt="">
+                            <div class="icons">
+                                <div>
+                                    <span><i class="ri-shopping-cart-2-line"></i></span>
+                                    <p><a href="#">Add to Cart</a></p>
+                                </div>
+                                <div>
+                                    <span><i class="ri-service-line"></i></span>
+                                    <span><i class="ri-fullscreen-line"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a href="#">Stylish Chair</a></h4>
+                            <p>$100.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-16">
+                    <div class="css3">
+                        <div class="image2">
+                            <img src="../Images/arrivals5.png" alt="">
+                            <div class="icons">
+                                <div>
+                                    <span><i class="ri-shopping-cart-2-line"></i></span>
+                                    <p><a href="#">Add to Cart</a></p>
+                                </div>
+                                <div>
+                                    <span><i class="ri-service-line"></i></span>
+                                    <span><i class="ri-fullscreen-line"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a href="#">Modern Chair</a></h4>
+                            <p>$120.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-16">
+                    <div class="css3">
+                        <div class="image2 saleO">
+                            <img src="../Images/arrivals6.png" alt="">
+                            <div class="icons">
+                                <div>
+                                    <span><i class="ri-shopping-cart-2-line"></i></span>
+                                    <p><a href="#">Add to Cart</a></p>
+                                </div>
+                                <div>
+                                    <span><i class="ri-service-line"></i></span>
+                                    <span><i class="ri-fullscreen-line"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a href="#">Mapple Wood Dinning Table</a></h4>
+                            <p>$140.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-16">
+                    <div class="css3">
+                        <div class="image2 saleG">
+                            <img src="../Images/arrivals7.png" alt="">
+                            <div class="icons">
+                                <div>
+                                    <span><i class="ri-shopping-cart-2-line"></i></span>
+                                    <p><a href="#">Add to Cart</a></p>
+                                </div>
+                                <div>
+                                    <span><i class="ri-service-line"></i></span>
+                                    <span><i class="ri-fullscreen-line"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a href="#">Arm Chair</a></h4>
+                            <p>$90.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-16">
+                    <div class="css3">
+                        <div class="image2">
+                            <img src="../Images/arrivals8.png" alt="">
+                            <div class="icons">
+                                <div>
+                                    <span><i class="ri-shopping-cart-2-line"></i></span>
+                                    <p><a href="#">Add to Cart</a></p>
+                                </div>
+                                <div>
+                                    <span><i class="ri-service-line"></i></span>
+                                    <span><i class="ri-fullscreen-line"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4><a href="#">Wooden Bed</a></h4>
+                            <p>$140.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section3 animate__animated animate__fadeIn">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active table">
+                    <div class="container">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <h3>Unlimited Daining Table Collection</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero tenetur vitae
+                                        fuga
+                                        aliquid,
+                                        itaque odio quos accusantium unde ipsa laborum ducimus ullam ad sed, aut rem
+                                        magni neque
+                                        error. Rem!</p>
+                                    <p>Starting From <span>$ 299</span></p>
+                                    <button>View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item sofa">
+                    <div class="container">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-6 col-12">
+                                    <h3>Unlimited Sofa Collection</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero tenetur vitae
+                                        fuga
+                                        aliquid,
+                                        itaque odio quos accusantium unde ipsa laborum ducimus ullam ad sed, aut rem
+                                        magni neque
+                                        error. Rem!</p>
+                                    <p>Starting From <span>$ 400</span></p>
+                                    <button>View More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section4" id="features">
+        <div class="container">
+            <h1>Featured Products</h1>
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <div class="css4">
+                        <div class="image3">
+                            <img src="../Images/f1.jpg" alt="">
+                        </div>
+                        <div class="text2">
+                            <div class="evaluation">
+                                <div class="stars">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span class="laststar"><i class="ri-star-fill"></i></span>
+                                </div>
+                                <p>(45 Review)</p>
+                            </div>
+                            <h5>Designed Sofa</h5>
+                            <h5>$160.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="css4">
+                        <div class="image3">
+                            <img src="../Images/f2.jpg" alt="">
+                        </div>
+                        <div class="text2">
+                            <div class="evaluation">
+                                <div class="stars">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span class="laststar"><i class="ri-star-fill"></i></span>
+                                </div>
+                                <p>(45 Review)</p>
+                            </div>
+                            <h5>Dinning Table</h5>
+                            <h5>$200.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="css4">
+                        <div class="image3">
+                            <img src="../Images/f3.jpg" alt="">
+                        </div>
+                        <div class="text2">
+                            <div class="evaluation">
+                                <div class="stars">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span class="laststar"><i class="ri-star-fill"></i></span>
+                                </div>
+                                <p>(45 Review)</p>
+                            </div>
+                            <h5>Chair and Table</h5>
+                            <h5>$100.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="css4">
+                        <div class="image3">
+                            <img src="../Images/f4.jpg" alt="">
+                        </div>
+                        <div class="text2">
+                            <div class="evaluation">
+                                <div class="stars">
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span class="laststar"><i class="ri-star-fill"></i></span>
+                                </div>
+                                <p>(45 Review)</p>
+                            </div>
+                            <h5>Modern Arm Chair</h5>
+                            <h5>$299.00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section5" id="blog">
+        <div class="container">
+            <h1>Latest Blog</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="css5">
+                        <div class="image4">
+                            <img src="../Images/b1.jpg" alt="">
+                        </div>
+                        <div class="text3">
+                            <h2>
+                                <a href="#">Why Brands are Looking at Local Language</a>
+                            </h2>
+                            <p>By Robert Norby / 18th March 2045</p>
+                            <p>Nemo Enim Ipsam Voluptatem Quia Voluptas Sit Aspernatur Aut Odit Aut Fugit, Sed Quia
+                                Consequuntur Magni Dolores Eos Qui Ratione Voluptatem Sequi Nesciunt....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="css5">
+                        <div class="image4">
+                            <img src="../Images/b2.jpg" alt="">
+                        </div>
+                        <div class="text3">
+                            <h2>
+                                <a href="#">Why Brands are Looking at Local Language</a>
+                            </h2>
+                            <p>By Robert Norby / 18th March 2045</p>
+                            <p>Nemo Enim Ipsam Voluptatem Quia Voluptas Sit Aspernatur Aut Odit Aut Fugit, Sed Quia
+                                Consequuntur Magni Dolores Eos Qui Ratione Voluptatem Sequi Nesciunt....</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="css5">
+                        <div class="image4">
+                            <img src="../Images/b3.jpg" alt="">
+                        </div>
+                        <div class="text3">
+                            <h2>
+                                <a href="#">Why Brands are Looking at Local Language</a>
+                            </h2>
+                            <p>By Robert Norby / 18th March 2045</p>
+                            <p>Nemo Enim Ipsam Voluptatem Quia Voluptas Sit Aspernatur Aut Odit Aut Fugit, Sed Quia
+                                Consequuntur Magni Dolores Eos Qui Ratione Voluptatem Sequi Nesciunt....</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section6">
+        <div class="container">
+            <div class="row">
+                <div class="col-2.4">
+                    <div class="css6">
+                        <img src="../Images/c1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-2.4">
+                    <div class="css6">
+                        <img src="../Images/c2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-2.4">
+                    <div class="css6">
+                        <img src="../Images/c3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-2.4">
+                    <div class="css6">
+                        <img src="../Images/c4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-2.4">
+                    <div class="css6">
+                        <img src="../Images/c5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section7" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="css7">
+                        <h3>Informations</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Store</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="css7">
+                        <h3>Collections</h3>
+                        <ul>
+                            <li><a href="#">Wooden Chair</a> </li>
+                            <li><a href="#">Royal Cloth Sofa</a></li>
+                            <li><a href="#">Accent Chair</a></li>
+                            <li><a href="#">Bed</a></li>
+                            <li><a href="#">Hanging Lamp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="css7">
+                        <h3>My Accounts</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">My Cart</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="css7">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe to get latest news,update and information.</p>
+                        <div class="in">
+                            <input type="email" placeholder="Enter Email Here....">
+                            <span><i class="ri-send-plane-fill"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section8">
+        <div class="container">
+            <div class="social">
+                <span><i class="ri-facebook-fill"></i></span>
+                <span><i class="ri-instagram-line"></i></span>
+                <span><i class="ri-linkedin-fill"></i></span>
+                <span><i class="ri-pinterest-fill"></i></span>
+                <span><i class="ri-behance-fill"></i></span>
+            </div>
+            <p>© 2045 All Rights Reserved | Design by: ThemeSINE</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

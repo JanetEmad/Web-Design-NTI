@@ -1,0 +1,500 @@
+.services .container .head h1 {
+    margin: 30px auto;
+    text-align: center;
+    color: #485664;
+    font-weight: 200;
+}
+
+.services .container .head p {
+    margin: 30px auto;
+    text-align: center;
+    color: #485664;
+}
+
+.services .container .row {
+    margin-bottom: 20px;
+}
+
+.services .container .row .service {
+    /* overflow: hidden; */
+    transition: 0.5s all;
+    border-radius: 10px;
+    position: relative;
+}
+
+.services .container .row .service img {
+    width: 100%;
+    transition: 0.5s all;
+
+}
+
+.services .container .row .service .image {
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.services .container .row .service:hover img {
+    transform: scale(1.2);
+}
+
+.services .container .row .service .content {
+    border-radius: 10px;
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    /* background-color: white; */
+    background: rgba(252, 250, 250, 0.8);
+    /* padding: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    top: -60px;
+    /* opacity: 0.7; */
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.services .container .row .service .content span {
+    background-color: #0ea2bd;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0ea2bd;
+    margin: auto;
+    position: relative;
+    top: -34px;
+    display: block;
+    border: 3px white solid;
+    transition: 0.5s all;
+
+}
+
+.services .container .row .service .content h3 {
+    font-size: 20px;
+}
+
+.services .container .row .service .content h3,
+p {
+    opacity: 1;
+    z-index: 9999;
+    transition: 0.5s all;
+}
+
+.services .container .row .service:hover .content h3 {
+    color: #0ea2bd;
+}
+
+.services .container .row .service:hover .content span {
+    background-color: white;
+    color: #0ea2bd;
+    border: 1px solid #0ea2bd;
+}
+
+
+/* .............................................................. */
+
+
+.admin {
+    background-color: #f6f9ff;
+    color: #012970;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.admin .container .head h1 {
+    font-size: 32px;
+}
+
+.admin .container .row .row .css {
+    background-color: white;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.admin .container .row .row .css span:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+
+.admin .container .row .row .css span:last-of-type {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.admin .container .row .row .css span:first-of-type h3 {
+    font-size: 20px;
+}
+
+.admin .container .row .row .css span:first-of-type h4 {
+    font-size: 15px;
+    color: gainsboro;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.admin .container .row .row .css span:last-of-type span:last-of-type {
+    width: 50%;
+}
+
+.admin .container .row .row .css span:last-of-type span:last-of-type h1 {
+    width: 90%;
+}
+
+.admin .container .row .row .css span:last-of-type span:last-of-type h1 {
+    width: 90%;
+    font-size: 35px;
+}
+
+.admin .container .row .row .css span:last-of-type span:last-of-type>h4 {
+
+    font-size: 18px;
+    color: green;
+}
+
+
+
+
+.admin .container .row .row .css span:last-of-type span:last-of-type h4:last-of-type {
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.admin .container .row .row .css span:last-of-type .first {
+    width: 40%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #4154f1;
+    background: #f6f6fe;
+
+}
+
+.admin .container .row .row .css span:last-of-type .second {
+    width: 40%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #2eca6a;
+    background: #e0f8e9;
+}
+
+.admin .container .row .row .css span:last-of-type .third {
+    width: 40%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ff771d;
+    background: #ffecdf;
+}
+
+
+
+
+.admin .container .row .css img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.admin .container .row .css2 {
+    background-color: white;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.admin .container .row .css2 .header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.admin .container .row .css2 .header span {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.admin .container .row .css2 span:first-of-type h3 {
+    font-size: 20px;
+}
+
+.admin .container .row .css2 span:first-of-type span:first-of-type h4 {
+    font-size: 15px;
+    color: gainsboro;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.admin .container .row .css2 span:last-of-type span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin .container .row .css2 span:last-of-type span h4 {
+    color: #6c757d;
+    font-size: 16px;
+    width: 20%;
+}
+
+.admin .container .row .css2 span:last-of-type span div {
+    width: 2%;
+    background-color: #f6f6fe;
+    min-height: 80px;
+}
+
+
+.admin .container .row .css2 span:last-of-type span p {
+    width: 75%;
+}
+
+
+.admin .container .row .css2 span:last-of-type span p::before {
+    content: '';
+
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    right: 13px;
+}
+
+.admin .container .row .css2 span:last-of-type span:nth-of-type(1) p::before {
+    background-color: green;
+}
+
+.admin .container .row .css2 span:last-of-type span:nth-of-type(2) p::before {
+    background-color: red;
+}
+
+.admin .container .row .css2 span:last-of-type span:nth-of-type(3) p::before {
+    background-color: blue;
+}
+
+.admin .container .row .css2 span:last-of-type span:nth-of-type(4) p::before {
+    background-color: aqua;
+}
+
+.admin .container .row .css2 span:last-of-type span:nth-of-type(5) p::before {
+    background-color: yellow;
+}
+
+.admin .container .row .css2 span:last-of-type span:nth-of-type(6) p::before {
+    background-color: gray;
+}
+
+.admin .container .row .row .css span:last-of-type span:last-of-type .danger {
+    color: red;
+}
+
+.section3 {
+    margin-top: 20px;
+    color: #485664;
+}
+
+
+.section3 .container .row .css3 {
+    box-shadow: 0px 0 25px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    text-align: center;
+    color: #012970;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+
+
+.section3 .container .row .css3 a span {
+    font-size: 35px;
+}
+
+/* .section3 .container .row div:nth-of-type(1) .css3 span{
+    color: #0dcaf0;
+} */
+.section3 .container .row div:nth-of-type(2) .css3 a span {
+    color: #6610f2;
+}
+
+.section3 .container .row div:nth-of-type(3) .css3 a span {
+    color: #20c997;
+}
+
+.section3 .container .row div:nth-of-type(4) .css3 a span {
+    color: #df1529;
+}
+
+.section3 .container .row div:nth-of-type(5) .css3 a span {
+    color: #0d6efd;
+}
+
+.section3 .container .row div:nth-of-type(6) .css3 a span {
+    color: #fd7e14;
+}
+
+.section3 .container .row .css3 a {
+    text-decoration: none;
+    color: #012970;
+}
+
+.section3 .container .row .css3 a h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section3 .container .row .active {
+    /* background: linear-gradient(#485664, #48566499); */
+    background: #485664 linear-gradient(rgba(14, 162, 189, 0.95), rgba(14, 162, 189, 0.6));
+}
+
+.section3 .container .row div .active a h4,
+.section3 .container .row div .active a span {
+    color: white;
+}
+
+.section3 .container .row .row2css h1 {
+    margin-top: 20px;
+}
+
+.section3 .container .row .row2css img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.section3 .container .row .row2css ul {
+    padding-left: 0px;
+}
+
+.section3 .container .row .row2css ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.section3 .container .row .row2css ul li p {
+    display: block;
+    width: 85%;
+}
+
+.section3 .container .row .row2css ul li span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #0ea2bd;
+    color: white;
+    margin-right: 10px;
+}
+
+.contact .container .row .css4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact .container .row .css4 form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact .container .row .css4 form input {
+    width: 49%;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.contact .container .row .css4 form input:nth-of-type(3) {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact .container .row .css4 form textarea {
+    width: 100%;
+    height: 325px;
+}
+
+.contact .container .row .css4 button {
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 0px;
+    display: block;
+}
+
+.contact .container .row .first1 {
+    box-shadow: 0px 0 25px rgb(0 0 0 / 10%);
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.contact .container .row .first1 h3 {
+    color: #1A1F24;
+}
+
+.contact .container .row .first1 p {
+    color: #6c757d;
+}
+
+.contact .container .row .css4 .div1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact .container .row .css4 .div1 div {
+    width: 80%;
+}
+
+.contact .container .row .css4 div span {
+    color: #0ea2bd;
+    font-size: 25px;
+}
+
+.contact .container .row .css4 div div h4 {
+    color: #485664;
+    font-size: 18px;
+}
+
+.contact .container .row .css4 div div p {
+    font-size: 16;
+    color: #6c757d;
+}
